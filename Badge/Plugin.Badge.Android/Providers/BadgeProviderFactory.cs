@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Android.Content.PM;
 using Plugin.CurrentActivity;
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
 	public class BadgeProviderFactory {
 

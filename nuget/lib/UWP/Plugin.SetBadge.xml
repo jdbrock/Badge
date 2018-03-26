@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.SetBadge</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.SetBadge.CrossBadge">
+            <summary>
+            Cross platform Badge implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.SetBadge.CrossBadge.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="T:Plugin.SetBadge.BadgeImplementation">
+            <summary>
+            Implementation for Feature
+            </summary>
+        </member>
+        <member name="M:Plugin.SetBadge.BadgeImplementation.SetBadge(System.Int32)">
+            <summary>
+            Sets the badge.
+            </summary>
+            <param name="badgeNumber">The badge number.</param>
+            <param name="title">The title. Used only by Android</param>
+        </member>
+        <member name="M:Plugin.SetBadge.BadgeImplementation.ClearBadge">
+            <summary>
+            Clears the badge.
+            </summary>
+        </member>
+    </members>
+</doc>

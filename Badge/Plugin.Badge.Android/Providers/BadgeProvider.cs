@@ -1,7 +1,7 @@
 using Android.Content;
 using Plugin.CurrentActivity;
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
 	public class BadgeProvider {
 

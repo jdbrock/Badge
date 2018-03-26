@@ -1,7 +1,7 @@
 using System;
 using Android.Content;
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
 	class HtcBadgeProvider : BadgeProvider {
 

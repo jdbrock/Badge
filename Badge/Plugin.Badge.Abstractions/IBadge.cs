@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Plugin.Badge.Abstractions
+namespace Plugin.SetBadge.Abstractions
 {
     /// <summary>
     /// Interface for Badge

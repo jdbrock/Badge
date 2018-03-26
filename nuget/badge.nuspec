@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>Xamarin.Badge.Plugin</id>
+        <id>Xamarin.SetBadge.Plugin</id>
         <version>2.0.0</version>
         <title>Badge Plugin for Xamarin and Windows</title>
         <authors>Alex Rainman</authors>
@@ -36,24 +36,24 @@
     </metadata>
     <files>
         <!-- NetStandard -->
-        <file src="lib/Plugin.Badge.Abstractions.dll" target="lib/netstandard1.4/Plugin.Badge.Abstractions.dll" />
-        <file src="lib/Plugin.Badge.dll" target="lib/netstandard1.4/Plugin.Badge.dll" />
+        <file src="lib/Plugin.SetBadge.Abstractions.dll" target="lib/netstandard1.4/Plugin.SetBadge.Abstractions.dll" />
+        <file src="lib/Plugin.SetBadge.dll" target="lib/netstandard1.4/Plugin.SetBadge.dll" />
 
         <!-- PCL -->
-        <file src="lib/Plugin.Badge.Abstractions.dll" target="lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/Plugin.Badge.Abstractions.dll" />
-        <file src="lib/Plugin.Badge.dll" target="lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/Plugin.Badge.dll" />
+        <file src="lib/Plugin.SetBadge.Abstractions.dll" target="lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/Plugin.SetBadge.Abstractions.dll" />
+        <file src="lib/Plugin.SetBadge.dll" target="lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/Plugin.SetBadge.dll" />
 
         <!-- Xamarin.iOS (Unified)-->
-        <file src="lib/Plugin.Badge.Abstractions.dll" target="lib/Xamarin.iOS10/Plugin.Badge.Abstractions.dll" />
-        <file src="lib/iOS/Plugin.Badge.dll" target="lib/Xamarin.iOS10/Plugin.Badge.dll" />
+        <file src="lib/Plugin.SetBadge.Abstractions.dll" target="lib/Xamarin.iOS10/Plugin.SetBadge.Abstractions.dll" />
+        <file src="lib/iOS/Plugin.SetBadge.dll" target="lib/Xamarin.iOS10/Plugin.SetBadge.dll" />
 
         <!-- Xamarin.Android -->
-        <file src="lib/Plugin.Badge.Abstractions.dll" target="lib/MonoAndroid/Plugin.Badge.Abstractions.dll" />
-        <file src="lib/Android/Plugin.Badge.dll" target="lib/MonoAndroid/Plugin.Badge.dll" />
+        <file src="lib/Plugin.SetBadge.Abstractions.dll" target="lib/MonoAndroid/Plugin.SetBadge.Abstractions.dll" />
+        <file src="lib/Android/Plugin.SetBadge.dll" target="lib/MonoAndroid/Plugin.SetBadge.dll" />
 
         <!-- UWP -->
-        <file src="lib/Plugin.Badge.Abstractions.dll" target="lib/UAP10/Plugin.Badge.Abstractions.dll" />
-        <file src="lib/UWP/Plugin.Badge.dll" target="lib/UAP10/Plugin.Badge.dll" />
-        <file src="lib/UWP/Plugin.Badge.dll" target="lib/UAP10/Plugin.Badge.pri" />
+        <file src="lib/Plugin.SetBadge.Abstractions.dll" target="lib/UAP10/Plugin.SetBadge.Abstractions.dll" />
+        <file src="lib/UWP/Plugin.SetBadge.dll" target="lib/UAP10/Plugin.SetBadge.dll" />
+        <file src="lib/UWP/Plugin.SetBadge.dll" target="lib/UAP10/Plugin.SetBadge.pri" />
     </files>
 </package>

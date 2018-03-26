@@ -5,7 +5,7 @@ using Java.IO;
 using Java.Lang;
 using Java.Lang.Reflect;
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
 	public class OppoBadgeProvider : BadgeProvider
 	{

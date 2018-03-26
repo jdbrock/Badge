@@ -1,7 +1,7 @@
 ﻿using System;
 using Android.OS;
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
 	public class ZukBadgeProvider : BadgeProvider
 	{

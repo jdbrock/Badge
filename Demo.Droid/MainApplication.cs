@@ -4,7 +4,7 @@ using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Widget;
-using Plugin.Badge;
+using Plugin.SetBadge;
 using Plugin.CurrentActivity;
 
 namespace Demo.Droid

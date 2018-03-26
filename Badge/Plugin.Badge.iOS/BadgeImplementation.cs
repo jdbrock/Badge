@@ -1,7 +1,7 @@
-using Plugin.Badge.Abstractions;
+using Plugin.SetBadge.Abstractions;
 using UIKit;
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
     /// <summary>
     /// Implementation for Badge

@@ -1,4 +1,4 @@
-using Plugin.Badge.Abstractions;
+using Plugin.SetBadge.Abstractions;
 #if WINDOWS_PHONE
 using System.Linq;
 using Microsoft.Phone.Shell;
@@ -7,7 +7,7 @@ using Windows.Data.Xml.Dom;
 using Windows.UI.Notifications;
 #endif
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
     /// <summary>
     /// Implementation for Feature

@@ -7,13 +7,13 @@
   "targets": {
     ".NETStandard,Version=v1.4": {},
     ".NETStandard,Version=v1.4/": {
-      "Plugin.Badge/1.0.0": {
+      "Plugin.SetBadge/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
-          "Plugin.Badge.Abstractions": "1.0.0"
+          "Plugin.SetBadge.Abstractions": "1.0.0"
         },
         "runtime": {
-          "Plugin.Badge.dll": {}
+          "Plugin.SetBadge.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -563,15 +563,18 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Plugin.Badge.Abstractions/1.0.0": {
+      "Plugin.SetBadge.Abstractions/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
         "runtime": {
-          "Plugin.Badge.Abstractions.dll": {}
+          "Plugin.SetBadge.Abstractions.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Plugin.Badge/1.0.0": {
+    "Plugin.SetBadge/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1010,7 +1013,7 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "Plugin.Badge.Abstractions/1.0.0": {
+    "Plugin.SetBadge.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

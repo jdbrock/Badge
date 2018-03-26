@@ -1,7 +1,7 @@
-﻿using Plugin.Badge.Abstractions;
+﻿using Plugin.SetBadge.Abstractions;
 using System;
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
   /// <summary>
   /// Cross platform Badge implemenations

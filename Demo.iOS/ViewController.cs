@@ -1,5 +1,5 @@
 ﻿using System;
-using Plugin.Badge;
+using Plugin.SetBadge;
 using UIKit;
 
 namespace Demo.iOS

@@ -4,7 +4,7 @@ using Android.Content;
 using Java.Lang;
 using Java.Lang.Reflect;
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
 	/**
 	 * @author leolin

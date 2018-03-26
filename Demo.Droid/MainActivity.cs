@@ -2,7 +2,7 @@
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
-using Plugin.Badge;
+using Plugin.SetBadge;
 
 namespace Demo.Droid
 {

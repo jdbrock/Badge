@@ -1,4 +1,4 @@
-using Plugin.Badge.Abstractions;
+using Plugin.SetBadge.Abstractions;
 using Java.Lang;
 using System;
 using Plugin.CurrentActivity;
@@ -28,7 +28,7 @@ using Plugin.CurrentActivity;
 
 */
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
 	/// <summary>
 	/// Implementation for Feature

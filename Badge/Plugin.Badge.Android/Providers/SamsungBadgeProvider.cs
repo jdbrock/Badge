@@ -2,7 +2,7 @@ using Android.Content;
 using Android.Database;
 using Android.OS;
 
-namespace Plugin.Badge
+namespace Plugin.SetBadge
 {
 	class SamsungBadgeProvider : BadgeProvider {
 
